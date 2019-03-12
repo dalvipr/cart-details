@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.summary {
+  padding: 40px;
+}
+
+.summary-box {
+  padding: 15px;
+  border: 1px solid dimgray;
+}
+/* Copy URL in other tab and check for responsiveness */
+@media screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+ .summary-box {
+   width: 70%;
+   margin: auto;
+ }
+}
+.summary-box p {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: black;
+  font-weight: normal;
+}
+
+.pickup-tooltip {
+  background-color: transparent !important;
+  padding: 0 !important;
+  font-size: 16px !important;
+  color: black !important;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+}
+
+.item-details .item-image {
+  width: 100px;
+  height: 100px;
+}
+
+.total-cost p {
+  font-size: 20px;
+}
+
+.form-group input {
+  width: 100% !important;
+}
+
+.promo-error {
+  color: red;
+}
+
+.promo-details {
+  padding: 0 !important;
+}
+
+.btn-primary.promo-btn {
+  color: black;
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.item-display,
+.promo-display {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.divider {
+  border: 0.5px solid gray;
+  margin: 15px -4px !important;
+}
